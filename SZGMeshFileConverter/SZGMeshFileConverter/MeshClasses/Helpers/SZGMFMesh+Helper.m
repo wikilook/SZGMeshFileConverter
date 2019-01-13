@@ -59,4 +59,41 @@
     self.faces = triangulatedFaces;
 }
 
+- (float) calculateSurfaceArea
+{
+    float area = 0.0f;
+    // Go through all the faces
+    for (SZGMFFace* face in self.faces)
+    {
+        float faceArea = 0.0f;
+        int j = 0;
+        GLKVector3 cross = GLKVector3Make(0, 0, 0);
+        
+        // Calculate the faces area separately
+        for (int i = 0; i < [face.vertexIndices count]; i++)
+        {
+            j = (i + 1) % [face.vertexIndices count];
+            
+            GLKVector3 vertex1_V3;
+            GLKVector3 vertex2_V3;
+            
+            long long vertexIndex1 = [face.vertexIndices[i] longLongValue];
+            NSValue* vertex1 = self.vertices[vertexIndex1 - 1];
+            [vertex1 getValue:&vertex1_V3];
+            
+            long long vertexIndex2 = [face.vertexIndices[j] longLongValue];
+            NSValue* vertex2 = self.vertices[vertexIndex2 - 1];
+            [vertex2 getValue:&vertex2_V3];
+            
+            cross = GLKVector3Add(cross, GLKVector3CrossProduct(vertex1_V3, vertex2_V3));
+        }
+        cross = GLKVector3DivideScalar(cross, 2);
+        faceArea = GLKVector3Distance(cross, GLKVector3Make(0, 0, 0));
+        
+        // And jsut add them together
+        area += faceArea;
+    }
+    return area;
+}
+
 @end

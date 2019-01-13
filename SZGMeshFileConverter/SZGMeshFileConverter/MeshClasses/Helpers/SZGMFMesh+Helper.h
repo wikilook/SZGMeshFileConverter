@@ -21,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void) triangulateFaces;
 
+/*!
+ * @brief Method for calulating the surface area of the mesh
+ */
+- (float) calculateSurfaceArea;
+
 @end
 
 NS_ASSUME_NONNULL_END
