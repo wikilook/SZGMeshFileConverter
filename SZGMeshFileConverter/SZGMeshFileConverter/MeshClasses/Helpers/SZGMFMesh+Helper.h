@@ -38,6 +38,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (float) calculateVolume;
 
+/*!
+ * @brief Method for applying a transform Matrix to the mesh
+ * @warning NOT TESTED 
+ */
+- (void) applyTransform:(GLKMatrix4)transformMatrix;
+
 @end
 
 NS_ASSUME_NONNULL_END

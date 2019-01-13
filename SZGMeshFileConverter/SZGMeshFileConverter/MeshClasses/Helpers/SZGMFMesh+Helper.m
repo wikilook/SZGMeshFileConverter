@@ -141,4 +141,57 @@
     return (1.0f / 6.0f) * (vector123 + vector231 + vector312 - vector321 - vector132 - vector213);
 }
 
+- (void) applyTransform:(GLKMatrix4)transformMatrix
+{
+    // Apply the transformation to the vertices
+    NSMutableArray* newVertices = [[NSMutableArray alloc] init];
+    for (int i = 0; i < [self.vertices count]; i++)
+    {
+        GLKVector3 vertex_V3;
+        NSValue* vertex = self.vertices[i];
+        [vertex getValue:&vertex_V3];
+        
+        // Multiply the matrix and the vector
+        vertex_V3 = GLKMatrix4MultiplyVector3(transformMatrix, vertex_V3);
+        
+        [newVertices addObject: [NSValue valueWithBytes:&vertex_V3 objCType:@encode(GLKVector3)]];
+    }
+    
+    // The same works with uv coordinates as well
+    NSMutableArray* newUV = [[NSMutableArray alloc] init];
+    for (int i = 0; i < [self.uvs count]; i++)
+    {
+        GLKVector3 vertex_V3;
+        NSValue* vertex = self.uvs[i];
+        [vertex getValue:&vertex_V3];
+        
+        // Multiply the matrix and the vector
+        vertex_V3 = GLKMatrix4MultiplyVector3(transformMatrix, vertex_V3);
+        
+        [newUV addObject: [NSValue valueWithBytes:&vertex_V3 objCType:@encode(GLKVector3)]];
+    }
+    
+    // The normals are different, they need to be transformed by the transposed inverse of the matrix
+    NSMutableArray* newNormals = [[NSMutableArray alloc] init];
+    for (int i = 0; i < [self.normals count]; i++)
+    {
+        GLKVector3 vertex_V3;
+        NSValue* vertex = self.normals[i];
+        [vertex getValue:&vertex_V3];
+        
+        // Calculate the transposed inverse matrix
+        GLKMatrix4 inverseMatrix = GLKMatrix4Invert(transformMatrix, nil);
+        GLKMatrix4 transposedInverseMatrix = GLKMatrix4Transpose(inverseMatrix);
+        
+        // Multiply the transposed inverse matrix and the vector
+        vertex_V3 = GLKMatrix4MultiplyVector3(transposedInverseMatrix, vertex_V3);
+        
+        [newNormals addObject: [NSValue valueWithBytes:&vertex_V3 objCType:@encode(GLKVector3)]];
+    }
+    
+    self.vertices = newVertices;
+    self.uvs = newUV;
+    self.normals = newNormals;
+}
+
 @end
