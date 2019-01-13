@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D50514721EAA9B300521DF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50514621EAA9B300521DF2 /* AppDelegate.m */; };
+		5D50514A21EAA9B300521DF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50514921EAA9B300521DF2 /* ViewController.m */; };
+		5D50514C21EAA9B500521DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D50514B21EAA9B500521DF2 /* Assets.xcassets */; };
+		5D50514F21EAA9B500521DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D50514D21EAA9B500521DF2 /* Main.storyboard */; };
+		5D50515221EAA9B500521DF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50515121EAA9B500521DF2 /* main.m */; };
+		5D50515D21EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50515C21EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.m */; };
+		5D50516821EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D50516721EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.m */; };
+		5D50517621EAB24A00521DF2 /* SZGMeshFileConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50517521EAB24A00521DF2 /* SZGMeshFileConverter.framework */; };
+		5D50517721EAB50200521DF2 /* SZGMeshFileConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50517521EAB24A00521DF2 /* SZGMeshFileConverter.framework */; };
+		5D50517821EAB50200521DF2 /* SZGMeshFileConverter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50517521EAB24A00521DF2 /* SZGMeshFileConverter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D50515921EAA9B500521DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D50513A21EAA9B300521DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D50514121EAA9B300521DF2;
+			remoteInfo = SZGMeshFileConverterSampleApplication;
+		};
+		5D50516421EAA9B500521DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D50513A21EAA9B300521DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D50514121EAA9B300521DF2;
+			remoteInfo = SZGMeshFileConverterSampleApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D50517921EAB50200521DF2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5D50517821EAB50200521DF2 /* SZGMeshFileConverter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D50514221EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZGMeshFileConverterSampleApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D50514521EAA9B300521DF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D50514621EAA9B300521DF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D50514821EAA9B300521DF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D50514921EAA9B300521DF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D50514B21EAA9B500521DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D50514E21EAA9B500521DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D50515021EAA9B500521DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D50515121EAA9B500521DF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D50515321EAA9B500521DF2 /* SZGMeshFileConverterSampleApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SZGMeshFileConverterSampleApplication.entitlements; sourceTree = "<group>"; };
+		5D50515821EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZGMeshFileConverterSampleApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D50515C21EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMeshFileConverterSampleApplicationTests.m; sourceTree = "<group>"; };
+		5D50515E21EAA9B500521DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D50516321EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZGMeshFileConverterSampleApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D50516721EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMeshFileConverterSampleApplicationUITests.m; sourceTree = "<group>"; };
+		5D50516921EAA9B500521DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D50517521EAB24A00521DF2 /* SZGMeshFileConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SZGMeshFileConverter.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D50513F21EAA9B300521DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D50517621EAB24A00521DF2 /* SZGMeshFileConverter.framework in Frameworks */,
+				5D50517721EAB50200521DF2 /* SZGMeshFileConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D50515521EAA9B500521DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D50516021EAA9B500521DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D50513921EAA9B300521DF2 = {
+			isa = PBXGroup;
+			children = (
+				5D50517521EAB24A00521DF2 /* SZGMeshFileConverter.framework */,
+				5D50514421EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication */,
+				5D50515B21EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests */,
+				5D50516621EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests */,
+				5D50514321EAA9B300521DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D50514321EAA9B300521DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D50514221EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication.app */,
+				5D50515821EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.xctest */,
+				5D50516321EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D50514421EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication */ = {
+			isa = PBXGroup;
+			children = (
+				5D50514521EAA9B300521DF2 /* AppDelegate.h */,
+				5D50514621EAA9B300521DF2 /* AppDelegate.m */,
+				5D50514821EAA9B300521DF2 /* ViewController.h */,
+				5D50514921EAA9B300521DF2 /* ViewController.m */,
+				5D50514B21EAA9B500521DF2 /* Assets.xcassets */,
+				5D50514D21EAA9B500521DF2 /* Main.storyboard */,
+				5D50515021EAA9B500521DF2 /* Info.plist */,
+				5D50515121EAA9B500521DF2 /* main.m */,
+				5D50515321EAA9B500521DF2 /* SZGMeshFileConverterSampleApplication.entitlements */,
+			);
+			path = SZGMeshFileConverterSampleApplication;
+			sourceTree = "<group>";
+		};
+		5D50515B21EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D50515C21EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.m */,
+				5D50515E21EAA9B500521DF2 /* Info.plist */,
+			);
+			path = SZGMeshFileConverterSampleApplicationTests;
+			sourceTree = "<group>";
+		};
+		5D50516621EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D50516721EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.m */,
+				5D50516921EAA9B500521DF2 /* Info.plist */,
+			);
+			path = SZGMeshFileConverterSampleApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D50514121EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D50516C21EAA9B500521DF2 /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterSampleApplication" */;
+			buildPhases = (
+				5D50513E21EAA9B300521DF2 /* Sources */,
+				5D50513F21EAA9B300521DF2 /* Frameworks */,
+				5D50514021EAA9B300521DF2 /* Resources */,
+				5D50517921EAB50200521DF2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZGMeshFileConverterSampleApplication;
+			productName = SZGMeshFileConverterSampleApplication;
+			productReference = 5D50514221EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D50515721EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D50516F21EAA9B500521DF2 /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterSampleApplicationTests" */;
+			buildPhases = (
+				5D50515421EAA9B500521DF2 /* Sources */,
+				5D50515521EAA9B500521DF2 /* Frameworks */,
+				5D50515621EAA9B500521DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D50515A21EAA9B500521DF2 /* PBXTargetDependency */,
+			);
+			name = SZGMeshFileConverterSampleApplicationTests;
+			productName = SZGMeshFileConverterSampleApplicationTests;
+			productReference = 5D50515821EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D50516221EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D50517221EAA9B500521DF2 /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterSampleApplicationUITests" */;
+			buildPhases = (
+				5D50515F21EAA9B500521DF2 /* Sources */,
+				5D50516021EAA9B500521DF2 /* Frameworks */,
+				5D50516121EAA9B500521DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D50516521EAA9B500521DF2 /* PBXTargetDependency */,
+			);
+			name = SZGMeshFileConverterSampleApplicationUITests;
+			productName = SZGMeshFileConverterSampleApplicationUITests;
+			productReference = 5D50516321EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D50513A21EAA9B300521DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gábor Szalai";
+				TargetAttributes = {
+					5D50514121EAA9B300521DF2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5D50515721EAA9B500521DF2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5D50514121EAA9B300521DF2;
+					};
+					5D50516221EAA9B500521DF2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5D50514121EAA9B300521DF2;
+					};
+				};
+			};
+			buildConfigurationList = 5D50513D21EAA9B300521DF2 /* Build configuration list for PBXProject "SZGMeshFileConverterSampleApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D50513921EAA9B300521DF2;
+			productRefGroup = 5D50514321EAA9B300521DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D50514121EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication */,
+				5D50515721EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests */,
+				5D50516221EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D50514021EAA9B300521DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D50514C21EAA9B500521DF2 /* Assets.xcassets in Resources */,
+				5D50514F21EAA9B500521DF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D50515621EAA9B500521DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D50516121EAA9B500521DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D50513E21EAA9B300521DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D50514A21EAA9B300521DF2 /* ViewController.m in Sources */,
+				5D50515221EAA9B500521DF2 /* main.m in Sources */,
+				5D50514721EAA9B300521DF2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D50515421EAA9B500521DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D50515D21EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D50515F21EAA9B500521DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D50516821EAA9B500521DF2 /* SZGMeshFileConverterSampleApplicationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D50515A21EAA9B500521DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D50514121EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication */;
+			targetProxy = 5D50515921EAA9B500521DF2 /* PBXContainerItemProxy */;
+		};
+		5D50516521EAA9B500521DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D50514121EAA9B300521DF2 /* SZGMeshFileConverterSampleApplication */;
+			targetProxy = 5D50516421EAA9B500521DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D50514D21EAA9B500521DF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D50514E21EAA9B500521DF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D50516A21EAA9B500521DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D50516B21EAA9B500521DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D50516D21EAA9B500521DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DU575YMZT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SZGMeshFileConverterSampleApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterSampleApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D50516E21EAA9B500521DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DU575YMZT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SZGMeshFileConverterSampleApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterSampleApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D50517021EAA9B500521DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DU575YMZT;
+				INFOPLIST_FILE = SZGMeshFileConverterSampleApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterSampleApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZGMeshFileConverterSampleApplication.app/Contents/MacOS/SZGMeshFileConverterSampleApplication";
+			};
+			name = Debug;
+		};
+		5D50517121EAA9B500521DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DU575YMZT;
+				INFOPLIST_FILE = SZGMeshFileConverterSampleApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterSampleApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZGMeshFileConverterSampleApplication.app/Contents/MacOS/SZGMeshFileConverterSampleApplication";
+			};
+			name = Release;
+		};
+		5D50517321EAA9B500521DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DU575YMZT;
+				INFOPLIST_FILE = SZGMeshFileConverterSampleApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterSampleApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SZGMeshFileConverterSampleApplication;
+			};
+			name = Debug;
+		};
+		5D50517421EAA9B500521DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9DU575YMZT;
+				INFOPLIST_FILE = SZGMeshFileConverterSampleApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterSampleApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SZGMeshFileConverterSampleApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D50513D21EAA9B300521DF2 /* Build configuration list for PBXProject "SZGMeshFileConverterSampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D50516A21EAA9B500521DF2 /* Debug */,
+				5D50516B21EAA9B500521DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D50516C21EAA9B500521DF2 /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterSampleApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D50516D21EAA9B500521DF2 /* Debug */,
+				5D50516E21EAA9B500521DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D50516F21EAA9B500521DF2 /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterSampleApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D50517021EAA9B500521DF2 /* Debug */,
+				5D50517121EAA9B500521DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D50517221EAA9B500521DF2 /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterSampleApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D50517321EAA9B500521DF2 /* Debug */,
+				5D50517421EAA9B500521DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D50513A21EAA9B300521DF2 /* Project object */;
+}

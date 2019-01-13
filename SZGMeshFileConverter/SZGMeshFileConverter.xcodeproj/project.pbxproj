@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D66A1FD21EA29320002331D /* SZGMeshFileConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D66A1F321EA29310002331D /* SZGMeshFileConverter.framework */; };
+		5D66A20221EA29320002331D /* SZGMeshFileConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A20121EA29320002331D /* SZGMeshFileConverterTests.m */; };
+		5D66A20421EA29320002331D /* SZGMeshFileConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A1F621EA29310002331D /* SZGMeshFileConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D66A21121EA2A830002331D /* SZGMFConverterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A20F21EA2A830002331D /* SZGMFConverterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D66A21221EA2A830002331D /* SZGMFConverterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A21021EA2A830002331D /* SZGMFConverterManager.m */; };
+		5D66A21521EA2D6C0002331D /* SZGMFExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A21321EA2D6C0002331D /* SZGMFExport.h */; };
+		5D66A21821EA2DB80002331D /* SZGMFImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A21721EA2DB80002331D /* SZGMFImport.h */; };
+		5D66A21B21EA2FFA0002331D /* SZGMFExportSTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A21921EA2FFA0002331D /* SZGMFExportSTL.h */; };
+		5D66A21C21EA2FFA0002331D /* SZGMFExportSTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A21A21EA2FFA0002331D /* SZGMFExportSTL.m */; };
+		5D66A21F21EA305E0002331D /* SZGMFImportOBJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A21D21EA305E0002331D /* SZGMFImportOBJ.h */; };
+		5D66A22021EA305E0002331D /* SZGMFImportOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A21E21EA305E0002331D /* SZGMFImportOBJ.m */; };
+		5D66A22421EA375A0002331D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D66A22321EA375A0002331D /* GLKit.framework */; };
+		5D66A22F21EA38ED0002331D /* SZGMFMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A22D21EA38ED0002331D /* SZGMFMesh.h */; };
+		5D66A23021EA38ED0002331D /* SZGMFMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A22E21EA38ED0002331D /* SZGMFMesh.m */; };
+		5D66A23321EA39100002331D /* SZGMFFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A23121EA39100002331D /* SZGMFFace.h */; };
+		5D66A23421EA39100002331D /* SZGMFFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A23221EA39100002331D /* SZGMFFace.m */; };
+		5D66A23721EA3ABF0002331D /* SZGMFMesh+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A23521EA3ABF0002331D /* SZGMFMesh+Helper.h */; };
+		5D66A23821EA3ABF0002331D /* SZGMFMesh+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A23621EA3ABF0002331D /* SZGMFMesh+Helper.m */; };
+		5D66A23C21EA3B180002331D /* SZGMFFace+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A23A21EA3B180002331D /* SZGMFFace+Helper.h */; };
+		5D66A23D21EA3B180002331D /* SZGMFFace+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A23B21EA3B180002331D /* SZGMFFace+Helper.m */; };
+		5D66A24621EA539E0002331D /* NSFileHandle+ReadLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66A24421EA539E0002331D /* NSFileHandle+ReadLine.h */; };
+		5D66A24721EA539E0002331D /* NSFileHandle+ReadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D66A24521EA539E0002331D /* NSFileHandle+ReadLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D66A1FE21EA29320002331D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D66A1EA21EA29310002331D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D66A1F221EA29310002331D;
+			remoteInfo = SZGMeshFileConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D50513421EAA84000521DF2 /* Copy Files (0 items) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files (0 items)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D66A1F321EA29310002331D /* SZGMeshFileConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZGMeshFileConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66A1F621EA29310002331D /* SZGMeshFileConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMeshFileConverter.h; sourceTree = "<group>"; };
+		5D66A1F721EA29310002331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D66A1FC21EA29320002331D /* SZGMeshFileConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZGMeshFileConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66A20121EA29320002331D /* SZGMeshFileConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMeshFileConverterTests.m; sourceTree = "<group>"; };
+		5D66A20321EA29320002331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D66A20F21EA2A830002331D /* SZGMFConverterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMFConverterManager.h; sourceTree = "<group>"; };
+		5D66A21021EA2A830002331D /* SZGMFConverterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMFConverterManager.m; sourceTree = "<group>"; };
+		5D66A21321EA2D6C0002331D /* SZGMFExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMFExport.h; sourceTree = "<group>"; };
+		5D66A21721EA2DB80002331D /* SZGMFImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMFImport.h; sourceTree = "<group>"; };
+		5D66A21921EA2FFA0002331D /* SZGMFExportSTL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMFExportSTL.h; sourceTree = "<group>"; };
+		5D66A21A21EA2FFA0002331D /* SZGMFExportSTL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMFExportSTL.m; sourceTree = "<group>"; };
+		5D66A21D21EA305E0002331D /* SZGMFImportOBJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMFImportOBJ.h; sourceTree = "<group>"; };
+		5D66A21E21EA305E0002331D /* SZGMFImportOBJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMFImportOBJ.m; sourceTree = "<group>"; };
+		5D66A22321EA375A0002331D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5D66A22D21EA38ED0002331D /* SZGMFMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMFMesh.h; sourceTree = "<group>"; };
+		5D66A22E21EA38ED0002331D /* SZGMFMesh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMFMesh.m; sourceTree = "<group>"; };
+		5D66A23121EA39100002331D /* SZGMFFace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGMFFace.h; sourceTree = "<group>"; };
+		5D66A23221EA39100002331D /* SZGMFFace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGMFFace.m; sourceTree = "<group>"; };
+		5D66A23521EA3ABF0002331D /* SZGMFMesh+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SZGMFMesh+Helper.h"; sourceTree = "<group>"; };
+		5D66A23621EA3ABF0002331D /* SZGMFMesh+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SZGMFMesh+Helper.m"; sourceTree = "<group>"; };
+		5D66A23A21EA3B180002331D /* SZGMFFace+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SZGMFFace+Helper.h"; sourceTree = "<group>"; };
+		5D66A23B21EA3B180002331D /* SZGMFFace+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SZGMFFace+Helper.m"; sourceTree = "<group>"; };
+		5D66A24421EA539E0002331D /* NSFileHandle+ReadLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileHandle+ReadLine.h"; sourceTree = "<group>"; };
+		5D66A24521EA539E0002331D /* NSFileHandle+ReadLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileHandle+ReadLine.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D66A1F021EA29310002331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66A22421EA375A0002331D /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66A1F921EA29320002331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66A1FD21EA29320002331D /* SZGMeshFileConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D66A1E921EA29310002331D = {
+			isa = PBXGroup;
+			children = (
+				5D66A1F521EA29310002331D /* SZGMeshFileConverter */,
+				5D66A20021EA29320002331D /* SZGMeshFileConverterTests */,
+				5D66A1F421EA29310002331D /* Products */,
+				5D66A22221EA37590002331D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D66A1F421EA29310002331D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A1F321EA29310002331D /* SZGMeshFileConverter.framework */,
+				5D66A1FC21EA29320002331D /* SZGMeshFileConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D66A1F521EA29310002331D /* SZGMeshFileConverter */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A24321EA53680002331D /* FileHandler */,
+				5D66A22121EA35D00002331D /* MeshClasses */,
+				5D66A20E21EA2A090002331D /* Export */,
+				5D66A20D21EA29F70002331D /* Import */,
+				5D66A1F621EA29310002331D /* SZGMeshFileConverter.h */,
+				5D66A1F721EA29310002331D /* Info.plist */,
+				5D66A20F21EA2A830002331D /* SZGMFConverterManager.h */,
+				5D66A21021EA2A830002331D /* SZGMFConverterManager.m */,
+			);
+			path = SZGMeshFileConverter;
+			sourceTree = "<group>";
+		};
+		5D66A20021EA29320002331D /* SZGMeshFileConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A20121EA29320002331D /* SZGMeshFileConverterTests.m */,
+				5D66A20321EA29320002331D /* Info.plist */,
+			);
+			path = SZGMeshFileConverterTests;
+			sourceTree = "<group>";
+		};
+		5D66A20D21EA29F70002331D /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A21721EA2DB80002331D /* SZGMFImport.h */,
+				5D66A21D21EA305E0002331D /* SZGMFImportOBJ.h */,
+				5D66A21E21EA305E0002331D /* SZGMFImportOBJ.m */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		5D66A20E21EA2A090002331D /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A21321EA2D6C0002331D /* SZGMFExport.h */,
+				5D66A21921EA2FFA0002331D /* SZGMFExportSTL.h */,
+				5D66A21A21EA2FFA0002331D /* SZGMFExportSTL.m */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		5D66A22121EA35D00002331D /* MeshClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A23921EA3AEA0002331D /* Helpers */,
+				5D66A22D21EA38ED0002331D /* SZGMFMesh.h */,
+				5D66A22E21EA38ED0002331D /* SZGMFMesh.m */,
+				5D66A23121EA39100002331D /* SZGMFFace.h */,
+				5D66A23221EA39100002331D /* SZGMFFace.m */,
+			);
+			path = MeshClasses;
+			sourceTree = "<group>";
+		};
+		5D66A22221EA37590002331D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A22321EA375A0002331D /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D66A23921EA3AEA0002331D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A23521EA3ABF0002331D /* SZGMFMesh+Helper.h */,
+				5D66A23621EA3ABF0002331D /* SZGMFMesh+Helper.m */,
+				5D66A23A21EA3B180002331D /* SZGMFFace+Helper.h */,
+				5D66A23B21EA3B180002331D /* SZGMFFace+Helper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5D66A24321EA53680002331D /* FileHandler */ = {
+			isa = PBXGroup;
+			children = (
+				5D66A24421EA539E0002331D /* NSFileHandle+ReadLine.h */,
+				5D66A24521EA539E0002331D /* NSFileHandle+ReadLine.m */,
+			);
+			path = FileHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D66A1EE21EA29310002331D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66A21B21EA2FFA0002331D /* SZGMFExportSTL.h in Headers */,
+				5D66A21F21EA305E0002331D /* SZGMFImportOBJ.h in Headers */,
+				5D66A20421EA29320002331D /* SZGMeshFileConverter.h in Headers */,
+				5D66A21121EA2A830002331D /* SZGMFConverterManager.h in Headers */,
+				5D66A21821EA2DB80002331D /* SZGMFImport.h in Headers */,
+				5D66A24621EA539E0002331D /* NSFileHandle+ReadLine.h in Headers */,
+				5D66A23C21EA3B180002331D /* SZGMFFace+Helper.h in Headers */,
+				5D66A22F21EA38ED0002331D /* SZGMFMesh.h in Headers */,
+				5D66A21521EA2D6C0002331D /* SZGMFExport.h in Headers */,
+				5D66A23321EA39100002331D /* SZGMFFace.h in Headers */,
+				5D66A23721EA3ABF0002331D /* SZGMFMesh+Helper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D66A1F221EA29310002331D /* SZGMeshFileConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D66A20721EA29320002331D /* Build configuration list for PBXNativeTarget "SZGMeshFileConverter" */;
+			buildPhases = (
+				5D66A1EE21EA29310002331D /* Headers */,
+				5D66A1EF21EA29310002331D /* Sources */,
+				5D66A1F021EA29310002331D /* Frameworks */,
+				5D66A1F121EA29310002331D /* Resources */,
+				5D50513421EAA84000521DF2 /* Copy Files (0 items) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZGMeshFileConverter;
+			productName = SZGMeshFileConverter;
+			productReference = 5D66A1F321EA29310002331D /* SZGMeshFileConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D66A1FB21EA29320002331D /* SZGMeshFileConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D66A20A21EA29320002331D /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterTests" */;
+			buildPhases = (
+				5D66A1F821EA29320002331D /* Sources */,
+				5D66A1F921EA29320002331D /* Frameworks */,
+				5D66A1FA21EA29320002331D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D66A1FF21EA29320002331D /* PBXTargetDependency */,
+			);
+			name = SZGMeshFileConverterTests;
+			productName = SZGMeshFileConverterTests;
+			productReference = 5D66A1FC21EA29320002331D /* SZGMeshFileConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D66A1EA21EA29310002331D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Gábor Szalai";
+				TargetAttributes = {
+					5D66A1F221EA29310002331D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5D66A1FB21EA29320002331D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D66A1ED21EA29310002331D /* Build configuration list for PBXProject "SZGMeshFileConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D66A1E921EA29310002331D;
+			productRefGroup = 5D66A1F421EA29310002331D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D66A1F221EA29310002331D /* SZGMeshFileConverter */,
+				5D66A1FB21EA29320002331D /* SZGMeshFileConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D66A1F121EA29310002331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66A1FA21EA29320002331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D66A1EF21EA29310002331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66A23821EA3ABF0002331D /* SZGMFMesh+Helper.m in Sources */,
+				5D66A23421EA39100002331D /* SZGMFFace.m in Sources */,
+				5D66A23D21EA3B180002331D /* SZGMFFace+Helper.m in Sources */,
+				5D66A21221EA2A830002331D /* SZGMFConverterManager.m in Sources */,
+				5D66A21C21EA2FFA0002331D /* SZGMFExportSTL.m in Sources */,
+				5D66A23021EA38ED0002331D /* SZGMFMesh.m in Sources */,
+				5D66A24721EA539E0002331D /* NSFileHandle+ReadLine.m in Sources */,
+				5D66A22021EA305E0002331D /* SZGMFImportOBJ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66A1F821EA29320002331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66A20221EA29320002331D /* SZGMeshFileConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D66A1FF21EA29320002331D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D66A1F221EA29310002331D /* SZGMeshFileConverter */;
+			targetProxy = 5D66A1FE21EA29320002331D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D66A20521EA29320002331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D66A20621EA29320002331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D66A20821EA29320002331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SZGMeshFileConverter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D66A20921EA29320002331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SZGMeshFileConverter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D66A20B21EA29320002331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZGMeshFileConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D66A20C21EA29320002331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZGMeshFileConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaborszalai.SZGMeshFileConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D66A1ED21EA29310002331D /* Build configuration list for PBXProject "SZGMeshFileConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66A20521EA29320002331D /* Debug */,
+				5D66A20621EA29320002331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D66A20721EA29320002331D /* Build configuration list for PBXNativeTarget "SZGMeshFileConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66A20821EA29320002331D /* Debug */,
+				5D66A20921EA29320002331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D66A20A21EA29320002331D /* Build configuration list for PBXNativeTarget "SZGMeshFileConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66A20B21EA29320002331D /* Debug */,
+				5D66A20C21EA29320002331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D66A1EA21EA29310002331D /* Project object */;
+}

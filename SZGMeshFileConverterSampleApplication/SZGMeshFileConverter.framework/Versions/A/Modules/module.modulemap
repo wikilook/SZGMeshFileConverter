@@ -1,0 +1,6 @@
+framework module SZGMeshFileConverter {
+  umbrella header "SZGMeshFileConverter.h"
+
+  export *
+  module * { export * }
+}
