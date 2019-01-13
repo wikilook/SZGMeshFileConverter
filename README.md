@@ -9,7 +9,7 @@ Notes:
   
   - I tested the framework with the .obj files included in the repository 
   
-  - As I chose objective c as language I tried to use it everwhere, even where c functions for example would made the implementation much easier. Did not want to make a mess of languages.s
+  - As I chose objective c as language I tried to use it everwhere, even where c functions for example would made the implementation much easier. Did not want to make a mess of languages
   
   - Lots of error checking are missing, i am just assuming that the inputs are somewhat correct. Due to limited time.
 
@@ -19,7 +19,7 @@ Notes:
 
   - There are added features to the SZGMFMesh class which are not tested yet. I implied it in the comments.
   
-  - Some features only work properly with certain type of meshes (watertight, convex, etc). I tried tos indicate these as well in the comments.
+  - Some features only work properly with certain type of meshes (watertight, convex, etc). I tried to indicate these as well in the comments.
   
   - The SampleApplication is not made errorproof. No point really as it is for the easy testing of the framework, nothing else.
   
