@@ -5,7 +5,7 @@ The framework is a side project made for an application to a new job.
 
 Notes:
 
-  - The last state of the projects is in the development branch
+  - As i keep working on it the last state of the projects is in the development branch, i will leave the master branch as it is at the time of the application is sent in
   
   - I tested the framework with the .obj files included in the repository 
   
