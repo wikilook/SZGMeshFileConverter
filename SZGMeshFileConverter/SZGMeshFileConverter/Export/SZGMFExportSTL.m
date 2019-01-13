@@ -64,20 +64,9 @@
         for (int j = 0; j < [currentFace.vertexIndices count]; j+=3)
         {
             // Get the 3 GLKVector3 out of the NSValues Where we stored them
-            NSNumber* vertexIndex = currentFace.vertexIndices[j];
-            NSValue* vertex = mesh.vertices[[vertexIndex longLongValue] - 1];
-            GLKVector3 vertexV3_1;
-            [vertex getValue:&vertexV3_1];
-            
-            vertexIndex = currentFace.vertexIndices[j+1];
-            vertex = mesh.vertices[[vertexIndex longLongValue] - 1];
-            GLKVector3 vertexV3_2;
-            [vertex getValue:&vertexV3_2];
-            
-            vertexIndex = currentFace.vertexIndices[j+2];
-            vertex = mesh.vertices[[vertexIndex longLongValue] - 1];
-            GLKVector3 vertexV3_3;
-            [vertex getValue:&vertexV3_3];
+            GLKVector3 vertexV3_1 = [mesh vertexForVertexIndex:  currentFace.vertexIndices[j]];
+            GLKVector3 vertexV3_2 = [mesh vertexForVertexIndex:  currentFace.vertexIndices[j+1]];
+            GLKVector3 vertexV3_3 = [mesh vertexForVertexIndex:  currentFace.vertexIndices[j+2]];
             
             // Also get the normals
             // Again these are optional so we need to be aware
