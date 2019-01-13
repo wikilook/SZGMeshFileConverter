@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /*!
  * @brief Triangulates the face indices
- * @warning Only works reliably for convex/coplanar faces
+ * @warning NOT TESTED -- Only works reliably for convex/coplanar faces
  */
 - (void) triangulate;
 
